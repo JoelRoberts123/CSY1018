@@ -1,54 +1,58 @@
-
-body{
-    background-color: white
-}
 nav { 
-    margin: 50px;
+  margin: 50px;
+  border: #333
 }
 ul {
-    overflow: auto;
-    list-style-type: none;
+  overflow: auto;
+  list-style-type: none;
 
 }
 
 li {
-    height: 25px;
-    float: left;
-    margin-right: 0px;
-    border-right: 1px solid #aaa;
-    padding: 0 20px;
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
 }
 
 li:last-child {
-    border-right: none;
-  }
+  border-right: none;
+}
 
 li a {
-  color: #ccc;
-  font: 15px;
-  text-transform: uppercase;
-  
-  -webkit-transition: all 0.5a ease;
-  -o-transition: all 0.5a ease;
-  -ms-transition: all 0.5a ease;
+color: #ccc;
+font: 15px;
+text-transform: uppercase;
+
+-webkit-transition: all 0.5a ease;
+-o-transition: all 0.5a ease;
+-ms-transition: all 0.5a ease;
 }
 
 li a:hover {
-  color: #666;
+color: #666;
 }
 
 li:active a {
-  font-weight: bold;
-  color: #333;
+font-weight: bold;
+color: #333;
 }
 
+h1{
+    margin: 1em;
+    font-size: 15px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+    
 h3{
     margin: 1em;
+    font-size: 55px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
-h2{
+h4{
     margin: 1em;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -58,33 +62,24 @@ h2{
     text-align:center;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     width: 100%;
-    height: 500px;
+    height: 100px;
     background-color: rgb(255, 255, 255);
   }
 
   .leftColumn {
-    width: 50%;
-    height: 500px;
+  width: 45%;
+  height: 1000px;
     float:left;
     background-color: rgb(255, 255, 255);
   }
   .rightColumn {
-    width: 50%;
-    height: 500px;
+    width: 35%;
+    height: 1000px;
     float:left;
     text-align:left;
     background-color: rgb(255, 255, 255);
 }
 
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight:300;
-    background-color:lightblue;
-    color:#FFF;
-  }
-  section{
-    text-align:center;
-  }
   .footer #button{
       width:35px;
       height:35px;
@@ -130,7 +125,7 @@ body{
       -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
       transition: all 1s ease;
-      height: 10em;
+      height: 5em;
   }
   .footer #container{
       margin-top:5px;
@@ -161,3 +156,32 @@ body{
       margin-top:70px;
       margin-left:40px;
 }
+
+form {
+    border: solid black 5px;
+    padding: 1em;
+    width: 200%;
+    min-width: 5em;
+    max-width: 10em;
+    font-size: 20px;
+  }
+  
+  .form-title {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 0.5em;
+  }
+  
+  textarea {
+    width: 96%;
+    resize: none;
+  }
+  
+  fieldset {
+    width: inherit;
+  }
+  .option-list {
+    display: inline-block;
+  }

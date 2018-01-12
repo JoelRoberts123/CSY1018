@@ -52,7 +52,7 @@ h3{
 }
 h4{
     margin: 1em;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -73,7 +73,7 @@ h4{
     background-color: rgb(255, 255, 255);
   }
   .rightColumn {
-    width: 30%;
+    width: 50%;
     height: 1000px;
     float:left;
     text-align:left;

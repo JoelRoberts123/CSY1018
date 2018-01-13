@@ -22,7 +22,7 @@ li:last-child {
 }
 
 li a {
-color: #ccc;
+color: rgb(0, 0, 0);
 font: 15px;
 text-transform: uppercase;
 
@@ -32,7 +32,7 @@ text-transform: uppercase;
 }
 
 li a:hover {
-color: #666;
+color: rgb(172, 172, 172)
 }
 
 li:active a {

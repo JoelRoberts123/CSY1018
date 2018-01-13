@@ -78,18 +78,8 @@ h4{
 -o-transition: all 0.5a ease;
 -ms-transition: all 0.5a ease;
   }
-  .leftColumn1 {
-    width: 45%;
-    height: 750px;
-      float:left;
-      background-color: rgb(255, 255, 255);
-      -webkit-transition: all 0.5a ease;
-  -o-transition: all 0.5a ease;
-  -ms-transition: all 0.5a ease;
-    }
-  
   .rightColumn {
-    width: 35%;
+    width: 45%;
     height: 850px;
     float:left;
     text-align:left;

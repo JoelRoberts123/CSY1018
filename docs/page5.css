@@ -1,3 +1,4 @@
+/*The following code for the naviagtion bar as taken from Liz' codepen example*/
 nav { 
     margin: 50px;
 }
@@ -49,8 +50,7 @@ h4{
     font-size: 20px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
-
+/*The following CSS regarding the table was also taken from Liz' codepen example*/
 .top_class {
     margin-top:-26px;
     font-size: 20px;
@@ -77,6 +77,7 @@ h4{
     text-align:left;
     background-color: rgb(255, 255, 255);
 }
+/*The following CSS regarding the footer was also taken from Liz' codepen example*/
 
   .footer #button{
       width:35px;

@@ -121,7 +121,7 @@ p{
       -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
       transition: all 1s ease;
-      height: 10em;
+      height: 3em;
   }
   .footer #container{
       margin-top:5px;

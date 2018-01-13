@@ -79,7 +79,7 @@ h4{
 -ms-transition: all 0.5a ease;
   }
   .rightColumn {
-    width: 45%;
+    width: 50%;
     height: 850px;
     float:left;
     text-align:left;
@@ -173,6 +173,33 @@ form {
     min-width: 5em;
     max-width: 10em;
     font-size: 20px;
+  }
+  
+  .form-title {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 0.5em;
+  }
+  
+  textarea {
+    width: 96%;
+    resize: none;
+  }
+  
+  fieldset {
+    width: inherit;
+  }
+  .option-list {
+    display: inline-block;
+  }
+  form {
+    border: solid black 5px;
+    padding: 1em;
+    width: 40%;
+    min-width: 15em;
+    max-width: 26.5em;
   }
   
   .form-title {

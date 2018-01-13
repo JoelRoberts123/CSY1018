@@ -150,31 +150,3 @@ p{
       margin-top:70px;
       margin-left:40px;
 }
-
-form {
-    border: solid black 5px;
-    padding: 1em;
-    width: 40%;
-    min-width: 15em;
-    max-width: 26.5em;
-  }
-  
-  .form-title {
-    margin-top: 0;
-  }
-  
-  .form-group {
-    margin-bottom: 0.5em;
-  }
-  
-  textarea {
-    width: 96%;
-    resize: none;
-  }
-  
-  fieldset {
-    width: inherit;
-  }
-  .option-list {
-    display: inline-block;
-  }

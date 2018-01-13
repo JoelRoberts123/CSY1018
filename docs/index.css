@@ -71,7 +71,7 @@ h4{
 
   .leftColumn {
   width: 45%;
-  height: 1000px;
+  height: 850px;
     float:left;
     background-color: rgb(255, 255, 255);
     -webkit-transition: all 0.5a ease;
@@ -81,7 +81,7 @@ h4{
   
   .rightColumn {
     width: 35%;
-    height: 1000px;
+    height: 850px;
     float:left;
     text-align:left;
     background-color: rgb(255, 255, 255);
